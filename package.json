@@ -3,9 +3,14 @@
   "description": "Open data platform for the web.",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "lint": "lerna run lint"
   },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "eslint": "^7.16.0",
+    "eslint-config-prettier": "^7.1.0",
+    "eslint-plugin-prettier": "^3.3.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.2.1"
   }
 }
