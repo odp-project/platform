@@ -1,6 +1,11 @@
 {
   "name": "@odp-project/platform",
-  "version": "0.0.0",
+  "description": "Open data platform for the web.",
   "private": true,
-  "devDependencies": {}
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
 }
